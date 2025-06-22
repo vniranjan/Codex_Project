@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+}
+.articles {
+  list-style: none;
+  padding: 0;
+}
+.articles li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.votes a {
+  margin-right: 10px;
+  text-decoration: none;
+}
