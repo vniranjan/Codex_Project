@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>AI News Aggregator</title>
   </head>
   <body>
-    <div class="container">
-      <h1>AI News Aggregator</h1>
+    <header class="site-header">
+      <div class="container">
+        <h1>📰 AI News Aggregator</h1>
+      </div>
+    </header>
+    <main class="container">
       {% block content %}{% endblock %}
-    </div>
+    </main>
   </body>
 </html>
