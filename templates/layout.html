@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>AI News Aggregator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI News Aggregator</h1>
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>
